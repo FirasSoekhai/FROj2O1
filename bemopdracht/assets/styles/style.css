@@ -37,6 +37,7 @@ html {
     height: 100vh;
     width: 100vw;
     background-image: url("../images/Lake.png");
+    background-size: cover;
     
 }
 
@@ -70,7 +71,7 @@ html {
     color: black;
 }
 
-.lees_meer {
+.lees__meer {
     background-color: transparent;
     border: 2px solid white;
     color: white;
@@ -111,7 +112,7 @@ html {
     width: 25%;
 }
 
-.over_ons {
+.over__ons {
     display: block;
     text-align: center;
     padding-top: 2em;
@@ -122,12 +123,12 @@ html {
     padding-top: 2em;
 }
 
-.over_ons h2, .contact h2, .diensten h2 {
+.over__ons h2, .contact h2, .diensten h2 {
     font-size: 2em;
     padding: 2em;
 }
 
-.over_ons .container {
+.over__ons .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
@@ -139,22 +140,23 @@ html {
     font-size: larger;
 }
 
-.over_ons .container .md1, .over_ons .container .md2, .over_ons .container .mv1, .over_ons .container .mv2 {
+.over__ons .container .container__persoons__Profiel {
     display: inline-block;
     margin: 2em;
     border-radius: 7px;
 }
 
-.over_ons .container .md1 h3, .over_ons .container .md2 h3, .over_ons .container .mv1 h3, .over_ons .container .mv2 h3, .diensten {
+.over__ons .container .container__persoons__Profiel .container__persoons__naam, .diensten {
     text-align: center;
+    font-size: 20px;
 }
 
-.over_ons .container .md1 .profile_Picture, .over_ons .container .md2 .profile_Picture, .over_ons .container .mv1 .profile_Picture, .over_ons .container .mv2 .profile_Picture {
+.over__ons .container .container__persoons__Profiel .container__profile__Picture {
     text-align: center;
     padding: 1em;
 } 
 
-.over_ons .container .md1 .profile_Picture img, .over_ons .container .md2 .profile_Picture img, .over_ons .container .mv1 .profile_Picture img, .over_ons .container .mv2 .profile_Picture img {
+.over__ons .container .container__persoons__Profiel .container__profile__Picture img {
     width: 50%;
     height: 50%;
 }
@@ -164,7 +166,7 @@ html {
     color: white;
 }
 
-.contact .contact_Info {
+.contact .contact__Info {
     padding: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -190,4 +192,5 @@ strong {
     width: 100vw;
     height: 100vh;
     background-image: url("../images/Lake.png");
+    background-size: cover;
 }
