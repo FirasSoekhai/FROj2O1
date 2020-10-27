@@ -140,23 +140,23 @@ html {
     font-size: larger;
 }
 
-.over__ons .container .container__persoons__Profiel {
+.over__ons .container .container__persoons--Profiel {
     display: inline-block;
     margin: 2em;
     border-radius: 7px;
 }
 
-.over__ons .container .container__persoons__Profiel .container__persoons__naam, .diensten {
+.over__ons .container .container__persoons--Profiel .container__persoons--naam, .diensten {
     text-align: center;
     font-size: 20px;
 }
 
-.over__ons .container .container__persoons__Profiel .container__profile__Picture {
+.over__ons .container .container__persoons--Profiel .container__profile--icture {
     text-align: center;
     padding: 1em;
 } 
 
-.over__ons .container .container__persoons__Profiel .container__profile__Picture img {
+.over__ons .container .container__persoons--Profiel .container__profile--Picture img {
     width: 50%;
     height: 50%;
 }
