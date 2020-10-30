@@ -140,26 +140,28 @@ html {
     font-size: larger;
 }
 
-.over__ons .container .container_persoons__Profiel {
+.over__ons .container .container__persoons-Profiel {
     display: inline-block;
     margin: 2em;
     border-radius: 7px;
 }
 
-.over__ons .container .container_persoons__Profiel .container_persoons__naam, .diensten {
+.over__ons .container .container__persoons-Profiel .container__persoons-naam, .diensten {
     text-align: center;
     font-size: 20px;
 }
 
-.over__ons .container .container_persoons__Profiel .container_profile__Picture {
+.over__ons .container .container__persoons-Profiel .container__profile-picture {
     text-align: center;
     padding: 1em;
 } 
-
-.over__ons .container .container_persoons__Profiel .container_profile__Picture img {
+.container__profile-img {
     width: 50%;
     height: 50%;
+    border: 5px solid grey;
+    border-radius: 100%;
 }
+
 
 .contact {
     background-color: black;
@@ -193,4 +195,16 @@ strong {
     height: 100vh;
     background-image: url("../images/Lake.png");
     background-size: cover;
+}
+.profile-picture--firas {
+    border-color: purple;
+}
+.profile-picture--bob {
+    border-color: salmon;
+}
+.profile-picture--pascal {
+    border-color: limegreen ;
+}
+.profile-picture--tijn {
+    border-color: green;
 }
